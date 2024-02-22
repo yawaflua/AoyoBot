@@ -8,5 +8,6 @@ Aoyo is multifunctional discord bot, worked on disnake, supports localization an
   4. Give report command to user (Right button on mouse on user or message)
   5. Save channel 
   6. Localizations
+     
 # Support
-If u know some languages(English, Spanish, etc.), u can help to localize this bot (create pull or issue)
+If u know some languages(English, Spanish, etc.), u can help to localize this bot (create pull or issue to folder /localize/ )
