@@ -10,7 +10,8 @@ logging.basicConfig(format=formatter)
 logging.basicConfig(level=logging.INFO)
 global rootLogger
 
-
+with open(main_path+"DISCORD_LOG.txt", "r+") as f:
+ f.close()
 fileHandler = logging.FileHandler("{0}/{1}.txt".format(f'{main_path}/logs', 'DISCORD_LOG'))
 fileHandler.setFormatter(logFormatter)
 
